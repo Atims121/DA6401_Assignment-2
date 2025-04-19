@@ -4,7 +4,7 @@
 ### - convnetwork.py
 ### - train.py
 
-## convnetwork.py
+## 'convnetwork.py'
 This file defines a class that extends `LightningModule`, offering flexibility to build various types of CNNs or other neural network architectures. Users can customize the model, loss function, accuracy metric, optimizer, and its parameters.
 
 Below is an example usage (also demonstrated in `main.py` and `train.py`):
@@ -28,7 +28,7 @@ model = ConvolutionalNN(
     optimizer_params=optimizer_params
 )
 ```
-## train.py
+## 'train.py'
 This script is a command-line executable that allows flexible architecture design and is also used for running Weights & Biases (wandb) sweeps.
 ```python
 train.py [-h] 
