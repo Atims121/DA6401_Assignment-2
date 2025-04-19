@@ -1,10 +1,10 @@
 # Part A
 
 ## Files
-### - `convnetwork.py`
-### - `train.py`
+### - convnetwork.py
+### - train.py
 
-## `convnetwork.py`
+## convnetwork.py
 This file defines a class that extends `LightningModule`, offering flexibility to build various types of CNNs or other neural network architectures. Users can customize the model, loss function, accuracy metric, optimizer, and its parameters.
 
 Below is an example usage (also demonstrated in `main.py` and `train.py`):
